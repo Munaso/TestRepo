@@ -21,6 +21,5 @@ jobs:
           script: | # 실행할 스크립트
             cd /home/ubuntu/cicd_test
             git pull origin main
-            pm2 delete cicd_test
             npm install
             cat test.js
